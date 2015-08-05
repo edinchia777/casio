@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"></meta>
+
+<head>
+	<title>Casio</title>
+	<script type="text/javascript" src="./jaso.js"></script>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+	<body>
+
+		<center><h1 class="titulo" style="font-family:Arial">CALCULADORA</h1></center>
+		<center><img class="total" src="./imagenes/Pantalla.png"></center>
+
+		<img class="imagen1" src="./imagenes/imagen1.png" width="150" height="150" onclick="enviarNumero('1')"/>
+		<img class="imagen2" src="./imagenes/imagen2.png" width="150" height="150" onclick="enviarNumero('2')"/>
+		<img class="imagen3" src="./imagenes/imagen3.png" width="150" height="150" onclick="enviarNumero('3')"/> 
+		<img class="imagen4" src="./imagenes/imagen4.png" width="150" height="150" onclick="enviarNumero('4')"/> 
+		<img class="imagen5" src="./imagenes/imagen5.png" width="150" height="150" onclick="enviarNumero('5')"/>
+		<img class="imagen6" src="./imagenes/imagen6.png" width="150" height="150" onclick="enviarNumero('6')"/> 
+		<img class="imagen7" src="./imagenes/imagen7.png" width="150" height="150" onclick="enviarNumero('7')"/>
+		<img class="imagen8" src="./imagenes/imagen8.png" width="150" height="150" onclick="enviarNumero('8')"/> 
+		<img class="imagen9" src="./imagenes/imagen9.png" width="150" height="150" onclick="enviarNumero('9')"/>
+		<img class="imagen0" src="./imagenes/imagen0.png" width="150" height="150" onclick="enviarNumero('0')"/>  
+
+
+		<img class="suma"    src="./imagenes/mas.png"      width="230" height="150" onclick="enviarSigno('+')"/> 
+		<img class="resta"   src="./imagenes/menos.png"    width="230" height="150" onclick="enviarSigno('-')"/>
+		<img class="por"     src="./imagenes/por.png"      width="230" height="145" onclick="enviarSigno('*')"/> 
+		<img class="divisor" src="./imagenes/divisor.png"  width="230" height="145" onclick="enviarSigno('/')"/> 
+		<img class="borrar"  src="./imagenes/borrar.png"   width="150" height="150" onclick="borrar()"/> 
+		<img class="igual"   src="./imagenes/igual.png"    width="150" height="150" onclick="igual()"/>
+
+		<tr>
+	          <td style="position: absolute;"><div id="total"></div></td>     
+	    </tr>
+</html>

@@ -1,0 +1,112 @@
+
+.titulo{ color: #D3A71A;
+		font-size: 50px;
+		margin-left: 274px;
+}
+
+.total{ position: absolute;
+		color: #B31824;
+		font-size: 30px;
+		margin-left: 230px;
+		left:360px;
+		top: 102px;
+}
+
+
+.imagen1{ position:absolute;
+		top:50px;
+		left:100px;}
+
+
+.imagen2{ position:absolute;
+		top:50px;
+		left:250px;}
+
+
+.imagen3{ position:absolute;
+		top:50px;
+		left:400px;}
+
+
+.imagen4{ position:absolute;
+		top:200px;
+		left:100px;}
+
+
+.imagen5{ position:absolute;
+		top:200px;
+		left:250px;}
+
+
+.imagen6{ position:absolute;
+		top:200px;
+		left:400px;}
+
+
+.imagen7{ position:absolute;
+		top:350px;
+		left:100px;}
+
+
+.imagen8{ position:absolute;
+		top:350px;
+		left:250px;}
+
+
+.imagen9{ position:absolute;
+		top:350px;
+		left:400px;}
+
+
+.imagen0{ position:absolute;
+		top:500px;
+		left:250px;}
+
+
+.suma{ position:absolute;
+		top:220px;
+		left:600px;}
+
+
+.resta{ position:absolute;
+		top:220px;
+		left:805px;}
+
+
+.por{ position:absolute;
+		top:355px;
+		left:600px;}
+
+
+.divisor{ position:absolute;
+		top:355px;
+		left:805px;}
+
+
+.borrar{ position:absolute;
+		top:500px;
+		left:400px;}
+
+
+.igual{ position:absolute;
+		top:500px;
+		left:100px;}
+
+
+.valores{ widows: 600px;
+		height: 200px;
+ }
+
+ #total{position: absolute;
+ 		font-size: 40px;
+ 		margin-left:757px;
+ 		top:158px;
+ 		color: #292626;
+ 		font-family: Arial;
+ }
+
+
+
+
+
+
